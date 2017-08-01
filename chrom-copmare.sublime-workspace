@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"name_st"
+			],
+			[
+				"tuple",
+				"tuple_ls\tstatement"
+			],
+			[
+				"wr",
+				"write\tfunction"
+			],
+			[
+				"line",
+				"linestyle"
+			],
+			[
+				"is_se",
+				"is_sep_ls\tstatement"
+			],
+			[
+				"xy",
+				"xy_tuple_ls\tstatement"
+			],
+			[
+				"grou",
+				"group_size\tstatement"
+			],
+			[
+				"size",
+				"group_size"
+			],
+			[
+				"chr",
+				"chr2id\tfunction"
+			],
+			[
+				"len",
+				"len_kmer"
+			],
+			[
+				"que",
+				"query_dirn\tparam"
+			],
+			[
+				"ref",
+				"ref_dirn\tparam"
+			],
+			[
+				"is",
+				"isdir\tmodule"
+			],
+			[
+				"si",
+				"size_b"
+			],
+			[
+				"pre",
+				"prefix"
+			],
+			[
+				"id",
+				"id2chr"
+			],
+			[
+				"dr",
+				"draw_chr_to_chr_comp_graph"
+			],
+			[
+				"set_",
+				"set_legend"
+			],
+			[
+				"is_c",
+				"is_con_ls"
+			],
+			[
+				"tu",
+				"tuple_ls"
+			],
+			[
+				"is_con",
+				"is_con_ls"
+			],
+			[
+				"is_sep",
+				"is_sep_ls"
+			],
+			[
+				"han",
+				"handle_ls"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"gro",
+				"group_label"
+			],
+			[
+				"ma",
+				"markerfacecolor"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"ha",
+				"have"
+			],
+			[
+				"a",
+				"arange"
+			],
+			[
+				"tic",
+				"tick_dist"
+			],
+			[
+				"en",
+				"enumerate"
+			],
+			[
+				"pl",
+				"plot"
+			],
+			[
+				"sep",
+				"separate_xy_ls"
+			],
+			[
+				"cont",
+				"continuous_start"
+			],
+			[
+				"se",
+				"separate_xy_ls"
+			],
+			[
+				"conti",
+				"continous_start"
+			],
+			[
+				"start",
+				"sep_start"
+			],
+			[
+				"curr",
+				"curr_xy"
+			],
+			[
+				"cur",
+				"curr_xy_ls"
+			],
+			[
+				"con",
+				"continous_xy_ls"
+			],
+			[
+				"cu",
+				"curr_xy_ls"
+			],
+			[
+				"ex",
+				"extract_xy"
+			],
+			[
+				"mar",
+				"markeredgecolor"
+			],
+			[
+				"mak",
+				"markeredgecolor"
+			],
+			[
+				"maer",
+				"markeredgecolor"
+			],
+			[
+				"marker",
+				"markeredgecolor"
+			],
+			[
+				"bg2tocbs",
+				"bg2tocbs_pos_ms_ls"
+			],
+			[
+				"multi",
+				"multi_event"
+			],
+			[
+				"uni",
+				"unique_event"
+			],
+			[
+				"un",
+				"unique_event"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"_cb",
+				"_cbs_id"
+			],
+			[
+				"_bg2",
+				"_bg2_id"
+			],
+			[
+				"_cbs",
+				"_cbs_pos"
+			],
+			[
+				"Y_t",
+				"y_ticks_labels"
+			],
+			[
+				"bg2_seq",
+				"bg2_seq_num_ls"
+			],
+			[
+				"bg2to",
+				"bg2tocbs_pos_ls"
+			],
+			[
+				"find",
+				"find_all_seq"
+			],
+			[
+				"dirn",
+				"dirname"
+			],
+			[
+				"gen",
+				"generate_dir_seq_from_labeled_seq"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"rec",
+				"record_ls"
+			],
+			[
+				"coor",
+				"coord_record"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"N",
+				"Names"
+			],
+			[
+				"tig",
+				"tig_name"
+			],
+			[
+				"tig_",
+				"tig_low_coverage_ls"
+			],
+			[
+				"cov",
+				"cov_pattern"
+			],
+			[
+				"low",
+				"low_coverage_ls"
+			],
+			[
+				"_re",
+				"_read_ls"
+			],
+			[
+				"read",
+				"read_list"
+			],
+			[
+				"cove",
+				"coverage_ls"
+			],
+			[
+				"_len",
+				"_length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"tig_cover",
+				"tig_coverage_ls"
+			],
+			[
+				"_rea",
+				"_read_end"
+			],
+			[
+				"tig_n",
+				"tig_nchildren_pattern"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "biochrom.py",
+			"settings":
+			{
+				"buffer_size": 4864,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Python 2.7.9 (default, Jan 10 2017, 09:47:42) \n[GCC 4.9.2] on linux2\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n>>> a = [[3,2,1], [3,1,2], [2,1,3], [2,3,1]]\n>>> a.sort()\n>>> a\n[[2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]\n>>> a = [[3,2,1], [3,1,2], [2,1,3], [2,3,1]]\n>>> a.sort(key=lambda x:x[1:])\n>>> a\n[[3, 1, 2], [2, 1, 3], [3, 2, 1], [2, 3, 1]]\n>>> a = [[3,2,1], [3,1,2], [2,1,3], [2,3,1]]\n>>> a.sort(key=lambda x:-x[1:])\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<stdin>\", line 1, in <lambda>\nTypeError: bad operand type for unary -: 'list'\n>>> a.sort(key=lambda x:x[1:]*(-1))\n>>> a\n[[3, 2, 1], [3, 1, 2], [2, 1, 3], [2, 3, 1]]\n>>> [1,1]*(-1)\n[]\n>>> ",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"scratch": true
+			}
+		},
+		{
+			"file": "chrom_analyse.py",
+			"settings":
+			{
+				"buffer_size": 66999,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zhuwei/Downloads/scatter3d_demo.py",
+			"settings":
+			{
+				"buffer_size": 923,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "ChrA_L  ChrC_R  5217  7703  4",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 352.0,
+		"last_filter": "repy",
+		"selected_items":
+		[
+			[
+				"repy",
+				"SublimeREPL: Python"
+			],
+			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"pacip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zhuwei/seq_tools/my_python_scripts/analysis_lib",
+		"/home/zhuwei/cglabarata"
+	],
+	"file_history":
+	[
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-canu.fa",
+		"/home/zhuwei/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/zhuwei/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/zhuwei/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2-cbs.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2-cbs-stat.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2-cbs-unique20mer-translocation-v2.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2-cbs-unique20mer-translocation-summary-v2.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/cbs/kmer/cbs-m-table.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/cbs/kmer/CBS_B2081_I_L-dump.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/trans-map/BG2-ChrA_L-CBS-ChrC_R.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/BG2-ChrM_L-CBS-ChrC_L.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2/kmer/BG2_B1907_A_L-dump.txt",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2/kmer/BG2_B1907_A_L.histo",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2/kmer/BG2_B1908_C_L.histo",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2/mer_counts_dump.fa",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2-fosmid.fa",
+		"/home/zhuwei/cglabarata/comp/kmer/cbs-fosmid.fa",
+		"/home/zhuwei/cglabarata/comp/kmer/bg2/mer_counts.histo",
+		"/home/zhuwei/seq_tools/my_python_scripts/canu_layout_analyzer.py",
+		"/home/zhuwei/seq_tools/my_python_scripts/analysis_lib/bioanalysis.py",
+		"/home/zhuwei/cglabarata/comp/kmer/cbs-fosmid.fasta",
+		"/home/zhuwei/cglabarata/comp/cbs-fosmid.fasta",
+		"/home/zhuwei/cglabarata/comp/bg2-fosmid.fa",
+		"/home/zhuwei/cglabarata/comp/bg2_ends/fosmidsbg2/BG2ER_final.fasta",
+		"/home/zhuwei/cglabarata/end-comp/53_52_end.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/ChrL-join.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/538.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/537.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/101.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/tig534.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/535.fa",
+		"/home/zhuwei/cglabarata/comp/54-52/54-52.coords",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52-f.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/ends/fos-all.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/ends/cbs_ends.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/ends/fos.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-canu.fa.fai",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/out.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/CBS_ref.fasta.fai",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/cbs-canu.fa.fai",
+		"/home/zhuwei/seq_tools/my_python_scripts/analysis_lib/chrom_analyse.py",
+		"/home/zhuwei/cglabarata/comp/cbs/ends/chrl-r-2.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/end-2/2399-2.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/end-2/2134.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl-ca/ChrC-L.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/ChrC-join.fa",
+		"/home/zhuwei/cglabarata/comp/comp_test/comp_test.coords",
+		"/home/zhuwei/cglabarata/comp/cbs/ends/cbs-fosmid.coords",
+		"/home/zhuwei/cglabarata/comp/52_end.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/tig4.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/cbs-to-be-fix.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/ChrL-right.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/ChrL-a-right.fa",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs-fl/cbs-to-be-fix.fa.fai",
+		"/home/zhuwei/cglabarata/comp/CBS_canu.fasta",
+		"/home/zhuwei/cglabarata/end-comp/54_52_end.coords",
+		"/home/zhuwei/cglabarata/end-comp/51_52_end.coords",
+		"/home/zhuwei/marcc/cglabrata/52_lowErr.sh",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.snps",
+		"/home/zhuwei/Downloads/C_glabrata_CBS138_current_chromosomes.fasta",
+		"/home/zhuwei/cglabarata/comp/cbs_ends/cbsfosmids/fosmid.fasta",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs_filter.snps",
+		"/home/zhuwei/cglabarata/comp/cbs/cbs.coords",
+		"/home/zhuwei/cglabarata/comp/CBS_ref.fasta",
+		"/home/zhuwei/cglabarata/comp/52.fasta",
+		"/home/zhuwei/seq_tools/my_python_scripts/analysis_lib/fasta.py",
+		"/home/zhuwei/seq_tools/my_python_scripts/analysis_lib/sequence_analysis.py",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.coords",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.tiling",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.filter",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.report",
+		"/home/zhuwei/cglabarata/52/52-both-auto/cglabrata.report",
+		"/home/zhuwei/cglabarata/comp/51-52/51-52.show-coords",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/telo_extrac.py",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/out1.show-coords",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/bg2.report",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/chr01_Left.fa",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/chr01_Right.fa",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/chr14_Right.fa",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/out.show-coords",
+		"/home/zhuwei/cglabarata/52/52-both-auto/52-ovl-5kb/ovl_to_ori.delta",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2-comp/J-16.show-coords",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2-comp/cglabrata.contigs.fasta",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_cpm2/bg2-2.fa",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/bg2_fos/out.show-coords",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2_comp2/tig21-bg2.show-coords",
+		"/home/zhuwei/cglabarata/52/52-both-auto/cglabrata.contigs.layout",
+		"/home/zhuwei/cglabarata/52/52-both-auto/52-both-lowcoverage.txt",
+		"/home/zhuwei/cglabarata/52/cglabrata-52-0407-auto/cglabrata.report",
+		"/home/zhuwei/cglabarata/52/52-both-auto/52-auto-weak_low_coverage.txt",
+		"/home/zhuwei/cglabarata/52/52-both-auto/52-auto-proved_low_coverage.txt",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2-comp/out.show-coords",
+		"/home/zhuwei/cglabarata/52/cglabrata-52-0407-auto/cglabrata.contigs.fasta",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2-comp/tig16.fa",
+		"/home/zhuwei/Downloads/ATT00002.txt",
+		"/home/zhuwei/Downloads/J_region2.contigs (1).fasta",
+		"/home/zhuwei/cglabarata/52/52-both-auto/bg2-comp/J_region2.contigs.fasta",
+		"/home/zhuwei/cglabarata/52/52-both-auto/low-coverage.py",
+		"/home/zhuwei/cglabarata/52/52-both-auto/test.sam",
+		"/home/zhuwei/marcc/copy_to_marcc.sh",
+		"/home/zhuwei/seq_data/bg2/cat_fasta.py",
+		"/home/zhuwei/seq_data/bg2/cat_fasta.python",
+		"/home/zhuwei/marcc/cglabrata/bg2_v2.sh",
+		"/home/zhuwei/marcc/cglabrata/53_gla.sh",
+		"/home/zhuwei/marcc/cglabrata/54_gla.sh",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/fosmids/fosmid_contig.fa",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/fosmids/uniq_tig.txt",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/fosmids/out.show-coords",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/fosmids/fosmid.fasta",
+		"/home/zhuwei/cglabarata/bg2/bg2.sh",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/fosmids/tmp_contig.txt",
+		"/home/zhuwei/seq_data/fosmids/L_right_2271_v2.fa",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/bg2.contigs.fasta",
+		"/home/zhuwei/cglabarata/bg2/bg2-auto/bg2.contigs.fasta.fai",
+		"/home/zhuwei/seq_tools/canu_quick_start/ecoli-10kb/correction/ecoli.gkpStore.BUILDING.err",
+		"/home/zhuwei/marcc/cglabrata/52_glabrata.sh",
+		"/home/zhuwei/marcc/testrun/test_glabrata.sh",
+		"/home/zhuwei/marcc/copy_from_marcc.sh",
+		"/home/zhuwei/cglabarata/52/cglabrata-52-0303-auto/cglabrata.contigs.fasta",
+		"/home/zhuwei/Documents/copy_from_marcc.sh",
+		"/home/zhuwei/Documents/copy_to_marcc.sh",
+		"/home/zhuwei/marcc/login.sh"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"markeredgecolor",
+			"markerfacecolor",
+			"Chr{\\w}",
+			"Chr{\\w}_{\\w}\\s+",
+			"\\t",
+			"10",
+			">",
+			"ref",
+			"continuous",
+			"\n\t\t\t",
+			"yellow",
+			"chr_align",
+			">",
+			"B1932_D_L",
+			">",
+			"B1936_G_R",
+			">",
+			"ChrL",
+			">",
+			"(\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+\\.\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+\\.\\d+)\\s+(\\d+\\.\\d+)\\s+([0-9a-zA-Z]+)\\s+([0-9a-zA-Z]+)",
+			">",
+			"tig 16",
+			"tig_coverage",
+			"tig_coverage_ls",
+			"^\\n",
+			"NULL",
+			"false",
+			"true",
+			"ture",
+			".class",
+			"***",
+			"Error",
+			"error",
+			"fail",
+			"#!/bin/bash\n#SBATCH --output=53_54.log\nmodule load java\nmodule load gnuplot\n\n\n~/canu-1.5/Linux-amd64/bin/canu \\\n-p cglabrata -d cglabrata-53-54-auto \\\ngenomeSize=12.3m \\\n-pacbio-raw ./53/53_0303.fastq ./53/53_0407.fastq ./54/54_0509.fastq ./54/54_0707.fastq",
+			" 627",
+			" ",
+			"> ",
+			"- \\d* bp",
+			"tig\\d*",
+			"tig000",
+			"tig00000004",
+			">",
+			"^\\n",
+			">",
+			"GridEngine"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "biochrom.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3162,
+								3162
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "5b29de51795b40019c497106bde2e856",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-i",
+									"-u"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chrom_analyse.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54651,
+								54651
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 31694.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/zhuwei/Downloads/scatter3d_demo.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/home/zhuwei/seq_tools/my_python_scripts/analysis_lib",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 296.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chrom-copmare.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
