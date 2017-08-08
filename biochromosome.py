@@ -42,14 +42,6 @@ def _test_dir(dirn=""):
     _message("%s doesn't exists" %dirn)
     return False
 
-def kmer2hash(kmer=""):
-    """Generate a hash number for a kmer."""
-    pass
-
-def hash2kmer(kmer=""):
-    """Retrieve the kmer from the hash number."""
-    pass
-
 def update_kmer_position(kmer_table, seq="", len_kmer=DEFAULT_KMER_SIZE, size=1, index=0):
     """Obtain all the kmers from a sequence, and update the kmer table 
     Every kmer is added to a kmer_table {"kmer": list of [[list of positions]]}
@@ -429,7 +421,7 @@ def draw_chrome_comp_graph(
         for i in range(len(query_name_ls)):
             y_tick_label[i+1] = query_name_ls[i]
         axes.set_yticklabels(y_tick_label, horizontalalignment="left",
-                             verticalalignment="top")
+                             verticalalignment="baseline")
         plt.title("%s to %s" %(r_name, query_genome_name))
 
         fig_name = dirn+prefix+"ref/"+r_name+".png"
@@ -482,7 +474,7 @@ def draw_chrome_comp_graph(
         for i in range(len(query_name_ls)):
             y_tick_label[i+1] = query_name_ls[i]
         axes.set_yticklabels(y_tick_label, horizontalalignment="left",
-                             verticalalignment="top")
+                             verticalalignment="baseline")
         plt.title("%s to %s" %(r_name, query_genome_name))
 
         fig_name = dirn+prefix+"ref/"+r_name+"-project.png"
@@ -494,24 +486,74 @@ def draw_chrome_comp_graph(
 
     
 
-def load_fasta(fname=""):
+def load_fasta(fname="", pattern=""):
     """Load Fasta file and return the sequences and names of the fasta file. 
     Args:
     fname:
         file name of the fasta file with the address
+    pattern:
+        reg pattern to sort file names
     Returns:
         Name_List, Sequence_list
     """
 
     fasta_ = Fasta(fname)
+
+    if pattern:
+        def _get_seq_tag(name):
+            _match = re.match(pattern, name)
+            return 
+        _name_list, _seq_list = 
     return fasta_.Names, fasta_.Seqs
+
+
+def rc_seq(seq=""):
+    """Returns the reverse compliment sequence."""
+    rc_nt_ls = []
+    rc_dict = {
+        "a": "t",
+        "c": "g",
+        "t": "a",
+        "g": "c",
+        "A": "T",
+        "C": "G",
+        "T": "A",
+        "G": "C"
+    }
+    rc_nt_ls = [rc_dict[seq[i]] for i in range(len(seq)-1, -1, -1)]
+    rc_seq = "".join(rc_nt_ls)
+    return rc_seq
+
+
+
+def adjust_direction(fn="", tag="--r", prefix="adj"):
+    """Generate Reverse Compliment seq for sequence with the tag."""
+    fasta_ = Fasta(fn)
+    _extention = os.path.splitext(fn)[1][1:].strip()
+    _path = os.path.splitext(fn)[0]
+    op_name = "%s-%s.%s" %(_path, prefix, _extention)
+    with open(op_name, "w") as out_p: 
+        for seq_id, seq_name in enumerate(fasta_.Names):
+            if tag in seq_name:
+                ext_p = seq_name.find(tag)
+                _name = seq_name
+                out_p.write(">%s\n")
+                _rc_seq = rc_seq(fasta_.Seqs[seq_id])
+                out_p.write(_rc_seq)
+                out_p.write("\n")
+            else:
+                out_p.write(">%s\n" %fasta_.Names[seq_id])
+                out_p.write(fasta_.Seqs[seq_id])
+                out_p.write("\n")
+
 
 def test():
     """Temporary fucntion to test code."""
-    fname_b = "/home/zhuwei/cglabarata/comp/kmer/exp/cbs-consensus.fa"
-    fname_c = "/home/zhuwei/cglabarata/comp/kmer/exp/52-annotate.fa"
-    names_b, seqs_b = load_fasta(fname_b)
-    names_c, seqs_c = load_fasta(fname_c)
+    fname_b = "/home/zhuwei/cglabarata/comp/kmer/bg2-fosmid.fa"
+    fname_c = "/home/zhuwei/cglabarata/comp/kmer/cbs-fosmid.fa"
+    pattern = r"_(\w)_(\w)"
+    names_b, seqs_b = load_fasta(fname_b, pattern=pattern)
+    names_c, seqs_c = load_fasta(fname_c, pattern=pattern)
     tab_b = generate_kmer_table(seq_list=seqs_b)
     tab_c = generate_kmer_table(seq_list=seqs_c)
     tab_comp, unalign_r, unalign_q = compare_kmer_table(tab_b, tab_c)
@@ -527,10 +569,10 @@ def test():
     draw_chrome_comp_graph(
         ref_name_ls=names_b, query_name_ls=names_c,
         ref_len_ls=len_b, query_len_ls=len_c,
-        position_list=mask_pos_ls, dirn="/home/zhuwei/cglabarata/comp/kmer/exp/", 
-        prefix="52-cbs/",
-        ref_genome_name="CBS",
-        query_genome_name="52")
+        position_list=mask_pos_ls, dirn="/home/zhuwei/cglabarata/comp/kmer/", 
+        prefix="bg2-cbs/",
+        ref_genome_name="BG2",
+        query_genome_name="CBS")
 
 if __name__ == "__main__":
     test()
